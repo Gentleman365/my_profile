@@ -1,0 +1,111 @@
+body {
+    color: rgb(30, 30, 30);
+    text-align: justify;
+    text-decoration: none;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Ajout de la classe img-circle */
+}
+
+a {
+    color: rgb(33);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-white {
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: green;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.follow-container {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+/* Ajout des icônes pour Facebook, Twitter et LinkedIn */
+.facebook-icon:before {
+    content: "\f09a"; /* Code Unicode pour l'icône Facebook */
+    font-family: "Font Awesome 5 Brands";
+}
+
+.twitter-icon:before {
+    content: "\f099"; /* Code Unicode pour l'icône Twitter */
+    font-family: "Font Awesome 5 Brands";
+}
+
+.linkedin-icon:before {
+    content: "\f0e1"; /* Code Unicode pour l'icône LinkedIn */
+    font-family: "Font Awesome 5 Brands";
+}
